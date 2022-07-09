@@ -4,7 +4,8 @@ sudo apt install -y fcitx
 sudo apt-get -y -f install
 sudo dpkg -i  sogoupinyin_2.4.0.3469_amd64.deb
 
-#if encounter any trouble , enter "sudo apt-get -f install"
+#if encounter any trouble , enter "sudo apt-get -f install"   
+#官网 https://www.wps.com/download/
 echo "wps ... "
 sudo dpkg -i wps-office_11.1.0.10702_amd64.deb
 
@@ -31,6 +32,12 @@ sudo dpkg -i typora_0.11.18_amd64.deb
 echo "QQ.."
 sudo dpkg -i linuxqq_2.0.0-b2-1089_amd64.deb
 
-#https://www.xmind.cn/download/
+#https://www.xmind.cn/download/ 
 echo "xmind.."
 sudo dpkg -i XMind-for-Linux-amd-64bit-11.1.2-202111151820.deb
+
+#微信  download： https://ubuntukylin.com/applications/119-cn.html
+echo "微信.."
+sudo apt-get install -f -y ./ukylin-wine_70.6.3.25_amd64.deb
+sudo apt-get install -f -y ./ukylin-wechat_3.0.0_amd64.deb
+
