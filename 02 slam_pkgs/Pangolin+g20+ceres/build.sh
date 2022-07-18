@@ -1,3 +1,5 @@
+# 卸载 cat install_manifest.txt | sudo xargs rm
+
 echo "pangolin ... "
 unzip Pangolin-master.zip
 
@@ -23,8 +25,10 @@ cd ..
 cd ..
 
 echo "g2o ..."
-tar -xvf g2o.tar.gz
-cd g2o
+# tar -xvf g2o.tar.gz
+# cd g2o
+unzip g2o-master.zip
+cd g2o-master
 mkdir build && cd build
 sudo apt-get install -y qt5-qmake qt5-default libqglviewer-dev-qt5 libsuitesparse-dev libcxsparse3 libcholmod3
 cmake ..
