@@ -23,7 +23,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 #https://code.visualstudio.com/
 echo "vscode.."
 sudo dpkg -i code_1.62.1-1636111026_amd64.deb
-#vscode 同步 https://baijiahao.baidu.com/s?id=1667725885292502238&wfr=spider&for=pc
+#vscode 同步 https://www.php.cn/tool/vscode/489147.html
 
 echo "typora.."
 sudo dpkg -i typora_0.11.18_amd64.deb
