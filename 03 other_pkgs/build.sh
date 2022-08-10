@@ -19,7 +19,7 @@ sudo dpkg -i electron-ssr-0.2.6.deb
 
 echo "google-chrome.."
 sudo dpkg -i google-chrome-stable_current_amd64.deb
-
+# 开启多线程下载chrome://flags/#enable-parallel-downloading
 #https://code.visualstudio.com/
 echo "vscode.."
 sudo dpkg -i code_1.62.1-1636111026_amd64.deb
