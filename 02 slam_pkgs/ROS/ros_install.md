@@ -1,3 +1,4 @@
+```
 来自国内清华的安装源
 sudo sh -c '. /etc/lsb-release && echo "deb http://mirrors.tuna.tsinghua.edu.cn/ros/ubuntu/ `lsb_release -cs` main" > /etc/apt/sources.list.d/ros-latest.list'
 
@@ -26,3 +27,4 @@ rosdep update一直安装不上
 
 
 https://zhuanlan.zhihu.com/p/77483614
+```
